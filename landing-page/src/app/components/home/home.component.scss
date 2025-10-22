@@ -1,0 +1,32 @@
+@import "../../../variables.scss";
+
+.principal {
+    display: flex;
+    padding: 160px 105px 160px 105px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #F5F7FA;
+
+    .info {
+        padding-right: 90px;
+
+        h2 {
+            font-size: 64px;
+            font-family: sans-serif;
+            padding: 0px 0px 16px 0px;
+            span {
+                color: $primary;
+            }
+        }
+
+        p   {
+            padding: 0px 0px 32px;
+            color: #717171;
+        }
+    }
+
+    .img-principal {
+      
+    }
+}
