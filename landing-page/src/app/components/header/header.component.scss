@@ -1,0 +1,41 @@
+@import "../../../variables.scss";
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 30px 105px;
+    justify-content: center;
+    font-family: sans-serif;
+
+
+    .header-logo {
+        padding: 0px 160px 0px 0px;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+
+        li {
+            padding: 0px 50px 0px 0px;
+
+            a {
+                text-decoration: none;
+                color: #000000;
+            }
+        }
+    }
+
+    .header-action {
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0px 124px;
+
+        p {
+            color: $primary;
+            padding: 0px 14px 0px 0px;
+        }
+    }
+
+}
