@@ -1,0 +1,24 @@
+.card-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+    padding: 24px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    box-shadow: 0px 2px 4px 1px #ABBED1;
+    border-radius: 8px;
+
+    h3 {
+        font-size: 28px;
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+
+    p {
+        color: #717171;
+    }
+
+}
