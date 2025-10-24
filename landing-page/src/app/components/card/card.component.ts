@@ -11,4 +11,5 @@ export class CardComponent {
   @Input() paragraph: String = "";
   @Input() imageUrl: String = "";
   @Input() title: String = "";
+  @Input() ch: String = "";
 }
