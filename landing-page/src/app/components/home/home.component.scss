@@ -43,3 +43,35 @@ section {
         padding-bottom: 16px;
     }
 }
+
+#ourClients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    font-family: sans-serif;
+
+    h2 {
+        padding: 40px 0px 8px 0px;
+        font-size: 36px;
+        color: #4D4D4D;
+    }
+
+    p {
+        font-size: 18px;
+        color: #717171;
+        padding: 0px 0px 40px 0px;
+    }
+
+    .ourClients-brands {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div{
+            margin: 0px 75px 40px 75px; 
+        }
+    }
+}
